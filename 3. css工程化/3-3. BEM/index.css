@@ -1,0 +1,43 @@
+.banner__container {
+    width: 520px;
+    height: 280px;
+    margin: 0 auto;
+    outline: 1px solid;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner__imgcontainer {
+    width: 1560px;
+    height: 280px;
+    /* background: red; */
+}
+
+.banner__imgcontainer img {
+    float: left;
+    width: 520px;
+    height: 280px;
+}
+
+.banner__dotcontainer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+}
+
+.banner__dot{
+    float: left;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.banner__dot_selected{
+    background: #f40;
+}
