@@ -1,0 +1,26 @@
+@primary: blue;
+
+.size(){
+    height: 100px;
+    margin: 10px 0;
+}
+
+.s1 {
+    background: @primary;
+    color: #fff;
+    .size();
+}
+
+//背景颜色在主颜色基础上加深
+.s2 {
+    background: darken(@primary, 10%);
+    color: #fff;
+    .size();
+}
+
+//背景颜色在主颜色基础上加深
+.s3 {
+    background: darken(@primary, 20%);
+    color: #fff;
+    .size();
+}
