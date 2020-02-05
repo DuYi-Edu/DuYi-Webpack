@@ -1,0 +1,20 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "postcss css/source.pcss -o css/out.css -w"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "postcss": "^7.0.26",
+        "postcss-apply": "^0.12.0",
+        "postcss-cli": "^7.1.0",
+        "postcss-color-function": "^4.1.0",
+        "postcss-preset-env": "^6.7.0",
+        "stylelint": "^13.0.0",
+        "stylelint-config-standard": "^19.0.0"
+    }
+}

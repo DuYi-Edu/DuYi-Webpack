@@ -1,0 +1,17 @@
+
+:root {
+    --mainColor: #aabbcc;
+}
+
+body {
+    /* 使用颜色#aabbcc，不做任何处理，等同于直接书写 #aabbcc */
+    color: color(var(--mainColor));
+    /* 将颜色#aabbcc透明度设置为90% */
+    color: color(var(--mainColor) a(90%));
+    /* 将颜色var(--mainColor)的红色部分设置为90% */
+    color: color(var(--mainColor) red(90%));
+    /* 将颜色var(--mainColor)调亮50%（更加趋近于白色），类似于less中的lighten函数 */
+    color: color(var(--mainColor) tint(50%));
+    /* 将颜色var(--mainColor)调暗50%（更加趋近于黑色），类似于less中的darken函数 */
+    color: color(var(--mainColor) shade(50%));
+}

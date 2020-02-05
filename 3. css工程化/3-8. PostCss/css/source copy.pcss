@@ -1,0 +1,17 @@
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+@custom-selector :--enter :focus,:hover;
+
+/* a:focus,a:hover */
+a:--enter{
+    color: #f40;
+}
+
+/* h1,h2,h3,h4,h5,h6 */
+:--heading{
+    font-weight:bold;
+}
+
+/* h1.active,h2.active,h3.active,h4.active,h5.active,h6.active */
+:--heading.active{
+    font-weight:bold;
+}
