@@ -1,0 +1,6 @@
+.main{
+    width: 500px;
+    height: 300px;
+    background: url("./img/china.jpg");
+    background-size: 100% 100%;
+}
