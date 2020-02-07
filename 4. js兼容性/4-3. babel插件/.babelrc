@@ -6,11 +6,12 @@
         }]
     ],
     "plugins": [
-        ["@babel/plugin-proposal-class-properties", {
+        ["@babel/proposal-class-properties", {
             "loose": true
         }],
-        "@babel/plugin-proposal-function-bind",
-        "@babel/plugin-proposal-optional-chaining",
-        "transform-remove-console"
+        "@babel/proposal-function-bind",
+        "@babel/proposal-optional-chaining",
+        "transform-remove-console",
+        "@babel/transform-runtime"
     ]
 }
