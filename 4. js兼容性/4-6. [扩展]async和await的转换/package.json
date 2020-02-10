@@ -1,0 +1,15 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "source.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "core-js": "^2.0.0",
+        "regenerator-runtime": "^0.13.3"
+    }
+}
