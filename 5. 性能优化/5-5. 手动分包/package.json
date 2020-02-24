@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "dev": "webpack",
     "dll": "webpack --config webpack.dll.config.js"
   },
   "author": "",

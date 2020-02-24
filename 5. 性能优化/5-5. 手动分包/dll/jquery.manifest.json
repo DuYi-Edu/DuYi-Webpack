@@ -1,0 +1,11 @@
+{
+    "name": "jquery",
+    "content": {
+        "./node_modules/jquery/dist/jquery.js": {
+            "id": 1,
+            "buildMeta": {
+                "providedExports": true
+            }
+        }
+    }
+}
